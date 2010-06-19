@@ -1,0 +1,22 @@
+!!! 5
+%html
+  %head
+    %title Homepage
+    %link{:rel => "stylesheet", :type => "text/css", :href => "/reset.css", :media => "screen" }
+    %link{:rel => "stylesheet", :type => "text/css", :href => "/styles.css", :media => "screen" }
+    
+    %script{ :type => "text/javascript", :src => "http://www.google.com/jsapi" }
+    %script{ :type => "text/javascript"}
+      google.load("jquery", "1.4.2");
+    
+    %script{:type => "text/javascript", :src => "jquery.widgetCE.js" }
+    
+    %script{ :type => "text/javascript", :charset => "utf-8"}
+      :plain
+        $(function() {
+          
+        });
+        
+  %body
+    #container
+      %p Hello World!
